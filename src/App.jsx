@@ -7,10 +7,11 @@ import Services from './components/Services'
 import Pricing from './components/Pricing'
 import Footer from './components/Footer'
 import Roadmap from './components/Roadmap'
+import ButtonGradient from './assets/svg/ButtonGradient'
 
 const App = () => {
   return (
-    <div>
+    <div className="pt-[4.75rem] lg:pt-[5.25rem] overflow-hidden">
       <Header/>
       <Hero/>
       <Benefits/>
@@ -19,6 +20,7 @@ const App = () => {
       <Pricing/>
       <Roadmap/>
       <Footer/>
+      <ButtonGradient/>
     </div>
   )
 }
