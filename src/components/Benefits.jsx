@@ -1,3 +1,4 @@
+import React from 'react';
 import { benefits } from "../constants";
 import Heading from "./Heading";
 import Section from "./Sections.jsx";
@@ -17,7 +18,7 @@ const Benefits = () => {
         <div className="flex flex-wrap gap-10 mb-10">
           {benefits.map((item) => (
             <div
-              className="block relative p-0.5 bg-no-repeat bg-[length:100%_100%] md:max-w-[24rem]"
+              className="block relative p-0.5 bg-no-repeat bg-[length:100%_100%] md:max-w-[24rem] border-gradient"
               style={{
                 backgroundImage: `url(${item.backgroundUrl})`,
               }}
