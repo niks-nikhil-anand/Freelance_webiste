@@ -1,8 +1,11 @@
 import React from 'react';
+import Services from '../components/Services';
 
 const ContactUs = () => {
   return (
-    <div className='bg-white-400 mt-[300px] mb-[200px]'>ContactUs</div>
+    <div className='bg-white-400 '>
+      <Services/>
+    </div>
   );
 };
 

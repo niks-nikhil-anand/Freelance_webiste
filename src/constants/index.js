@@ -63,13 +63,13 @@ import {
       url: "contactus",
     },
     {
-      id: "4",
+      id: "5",
       title: "Contact Us",
       url: "contactus",
       onlyMobile: true,
     },
     {
-      id: "5",
+      id: "6",
       title: "Get Started",
       url: "welcome",
       onlyMobile: true,

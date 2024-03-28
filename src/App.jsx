@@ -12,9 +12,9 @@ const App = () => {
   return (
     <div>
       <Routes>
-        <Route path="/" element={<LandingPageLayout />}>
+        <Route path="/Freelance_webiste/" element={<LandingPageLayout />}>
           <Route index element={<Homepage />} />
-          <Route path="about" element={<ContactUs />} />
+          <Route path="contactus" element={<ContactUs />} />
           <Route path="services" element={<Services/>} />
           <Route path="projects" element={<Projects/>} />
           <Route path="blogs" element={<Blogs/>} />
