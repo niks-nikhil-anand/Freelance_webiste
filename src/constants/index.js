@@ -34,6 +34,10 @@ import {
     telegram,
     twitter,
     yourlogo,
+    yourlogo2,
+    yourlogo3,
+    yourlogo4,
+    yourlogo5
   } from "../assets";
   
   export const navigation = [
@@ -80,7 +84,7 @@ import {
   
   export const notificationImages = [notification4, notification3, notification2];
   
-  export const companyLogos = [yourlogo, yourlogo, yourlogo, yourlogo, yourlogo];
+  export const companyLogos = [yourlogo2, yourlogo3, yourlogo4, yourlogo5, yourlogo];
   
   export const brainwaveServices = [
     "Photo generating",
@@ -249,7 +253,8 @@ import {
   export const benefits = [
     {
       id: "0",
-      title: "Ask anything",
+      imgURL:"https://flex-home.botble.com/storage/properties/b4-1-410x270.jpg",
+      title: "Website Development",
       text: "Lets users quickly find answers to their questions without having to search through multiple sources.",
       backgroundUrl: "./src/assets/benefits/card-1.svg",
       iconUrl: benefitIcon1,
@@ -257,7 +262,8 @@ import {
     },
     {
       id: "1",
-      title: "Improve everyday",
+      imgURL:"https://flex-home.botble.com/storage/properties/b4-1-410x270.jpg",
+      title: "Software Develoment",
       text: "The app uses natural language processing to understand user queries and provide accurate and relevant responses.",
       backgroundUrl: "./src/assets/benefits/card-2.svg",
       iconUrl: benefitIcon2,
@@ -266,37 +272,14 @@ import {
     },
     {
       id: "2",
-      title: "Connect everywhere",
+      imgURL:"https://flex-home.botble.com/storage/properties/b4-1-410x270.jpg",
+      title: "Mobile Development",
       text: "Connect with the AI chatbot from anywhere, on any device, making it more accessible and convenient.",
       backgroundUrl: "./src/assets/benefits/card-3.svg",
       iconUrl: benefitIcon3,
       imageUrl: benefitImage2,
     },
-    {
-      id: "3",
-      title: "Fast responding",
-      text: "Lets users quickly find answers to their questions without having to search through multiple sources.",
-      backgroundUrl: "./src/assets/benefits/card-4.svg",
-      iconUrl: benefitIcon4,
-      imageUrl: benefitImage2,
-      light: true,
-    },
-    {
-      id: "4",
-      title: "Ask anything",
-      text: "Lets users quickly find answers to their questions without having to search through multiple sources.",
-      backgroundUrl: "./src/assets/benefits/card-5.svg",
-      iconUrl: benefitIcon1,
-      imageUrl: benefitImage2,
-    },
-    {
-      id: "5",
-      title: "Improve everyday",
-      text: "The app uses natural language processing to understand user queries and provide accurate and relevant responses.",
-      backgroundUrl: "./src/assets/benefits/card-6.svg",
-      iconUrl: benefitIcon2,
-      imageUrl: benefitImage2,
-    },
+    
   ];
   
   export const socials = [

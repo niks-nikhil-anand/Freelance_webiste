@@ -9,6 +9,11 @@ import grid from "./grid.png";
 import check2 from "./check-02.svg";
 import loading1 from "./loading-01.svg";
 import yourlogo from "./yourlogo.svg";
+import yourlogo2 from "./yourlogo2.svg";
+import yourlogo3 from "./yourlogo3.svg";
+import yourlogo4 from "./yourlogo4.svg";
+import yourlogo5 from "./yourlogo5.svg";
+
 import homeSmile from "./home-smile.svg";
 import file02 from "./file-02.svg";
 import searchMd from "./search-md.svg";
@@ -75,6 +80,7 @@ import instagram from "./socials/instagram.svg";
 import telegram from "./socials/telegram.svg";
 import twitter from "./socials/twitter.svg";
 
+
 export {
   brainwave,
   check,
@@ -87,6 +93,11 @@ export {
   smallSphere,
   grid,
   yourlogo,
+  yourlogo2,
+  yourlogo3,
+  yourlogo4,
+  yourlogo5,
+
   homeSmile,
   file02,
   searchMd,

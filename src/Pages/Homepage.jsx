@@ -6,6 +6,8 @@ import Collaboration from '../components/Collaboration'
 import Services from '../components/Services'
 import Roadmap from '../components/Roadmap'
 import ButtonGradient from '../assets/svg/ButtonGradient'
+import Blogs from './Blogs'
+import ProjectHome from '../components/ProjectsHomeComp'
 
 
 const Homepage = () => {
@@ -14,10 +16,9 @@ const Homepage = () => {
       
       <Hero/>
       <Benefits/>
-      <Collaboration/>
       <Services/>
-      <Roadmap/>
-      
+      <ProjectHome/>
+      <Blogs/>
       <ButtonGradient/>
     </div>
   )
